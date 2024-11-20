@@ -9,7 +9,6 @@ const Education = () => {
           Education
         </h2>
 
-        {/* Degree 1: Bachelor's Degree at BME */}
         <div className="mt-8 bg-white dark:bg-darkCard p-6 rounded-lg shadow-lg">
           <h3
             className="text-2xl font-semibold text-gray-800 dark:text-darkText"
@@ -34,7 +33,6 @@ const Education = () => {
           </p>
         </div>
 
-        {/* Degree 2: Erasmus at UC3M */}
         <div className="mt-8 bg-white dark:bg-darkCard p-6 rounded-lg shadow-lg">
           <h3
             className="text-2xl font-semibold text-gray-800 dark:text-darkText"

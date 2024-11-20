@@ -1,4 +1,3 @@
-import ThemeToggle from './components/ThemeToggle';
 import Header from './components/Header';
 import AboutMe from './components/AboutMe';
 import Skills from './components/Skills';
@@ -12,12 +11,11 @@ import Footer from './components/Footer';
 const App = () => {
   return (
     <div>
-      <ThemeToggle />
       <Header />
       <main>
         <AboutMe />
-        <Skills />
         <Projects />
+        <Skills />
         <Experience />
         <Education />
         <Interests />

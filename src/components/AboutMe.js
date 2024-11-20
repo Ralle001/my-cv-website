@@ -2,16 +2,14 @@ const AboutMe = () => {
   return (
     <section id="about" className="py-16 bg-white dark:bg-darkBackground">
       <div className="container mx-auto flex flex-col md:flex-row items-center">
-        {/* Profile Image */}
         <div className="w-full md:w-1/3 flex justify-center mb-8 md:mb-0">
           <img
-            src="/photo.jpg" // Path to your uploaded image in the public folder
+            src="/photo.jpg"
             alt="Profile"
             className="rounded-full w-48 h-48 md:w-64 md:h-64 shadow-lg"
           />
         </div>
 
-        {/* About Me Text */}
         <div className="w-full md:w-2/3">
           <div className="bg-gray-50 dark:bg-darkCard p-6 rounded-lg shadow-lg">
             <h2
@@ -25,8 +23,7 @@ const AboutMe = () => {
               style={{ fontFamily: "'Lora', serif" }}
             >
               Hi, I’m Donát! I’m finishing my degree in Computer Science and have a big passion for
-              technology, especially cybersecurity. I love understanding how systems work, finding
-              problems, and figuring out how to fix them to make things safer.
+              technology, especially cybersecurity. I enjoy delving into how systems operate, uncovering issues, and developing solutions that improve safety and efficiency.
             </p>
             <p
               className="mt-4 text-lg md:text-xl leading-relaxed text-gray-700 dark:text-darkText"

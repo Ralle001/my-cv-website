@@ -9,7 +9,6 @@ const Projects = () => {
           Projects
         </h2>
 
-        {/* Project 1: Thesis */}
         <div className="mt-8 bg-white dark:bg-darkCard p-6 rounded-lg shadow-lg">
           <h3
             className="text-2xl font-semibold text-gray-800 dark:text-darkText"
@@ -36,7 +35,6 @@ const Projects = () => {
           </a>
         </div>
 
-        {/* Project 2: Vocabulary App */}
         <div className="mt-8 bg-white dark:bg-darkCard p-6 rounded-lg shadow-lg">
           <h3
             className="text-2xl font-semibold text-gray-800 dark:text-darkText"

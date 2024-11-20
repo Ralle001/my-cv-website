@@ -9,7 +9,6 @@ const Experience = () => {
           Experience
         </h2>
 
-        {/* Job 1: TCM GmbH */}
         <div className="mt-8 bg-gray-50 dark:bg-darkCard p-6 rounded-lg shadow-lg">
           <h3
             className="text-2xl font-semibold text-gray-800 dark:text-darkText"
@@ -33,7 +32,6 @@ const Experience = () => {
           </p>
         </div>
 
-        {/* Job 2: Ukatemi */}
         <div className="mt-8 bg-gray-50 dark:bg-darkCard p-6 rounded-lg shadow-lg">
           <h3
             className="text-2xl font-semibold text-gray-800 dark:text-darkText"
