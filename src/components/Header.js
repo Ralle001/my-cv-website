@@ -16,7 +16,7 @@ const Header = () => {
   return (
     <header className="bg-blue-600 dark:bg-darkAccent text-white p-6 sticky top-0 z-50 shadow-lg">
       <div className="container mx-auto flex justify-between items-center">
-        <h1 className="text-3xl font-bold hover:text-yellow-300 transition duration-300">
+        <h1 className="text-3xl font-bold hover:text-yellow-300 transition duration-300" style={{ fontFamily: "'Lora', serif" }}>
           Donát Treszler
         </h1>
 
@@ -29,7 +29,8 @@ const Header = () => {
                   smooth={true}
                   duration={500}
                   offset={-90}
-                  className="hover:text-yellow-300 transition duration-300 cursor-pointer"
+                  className="md:text-xl hover:text-yellow-300 transition duration-300 cursor-pointer"
+                  style={{ fontFamily: "'Lora', serif" }}
                 >
                   {section.charAt(0).toUpperCase() + section.slice(1)}
                 </Link>
